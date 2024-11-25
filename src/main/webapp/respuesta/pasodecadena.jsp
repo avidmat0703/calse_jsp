@@ -16,7 +16,7 @@
 <h1>Pasando una cadena de caracteres</h1>
 <form method="post" action="frase.jsp">
   Introduzca el nombre de una fruta:
-  <input type="text" name="cadna">
+  <input type="text" name="cadena">
   <input type="submit" value="Enviar">
 </form>
 </body>

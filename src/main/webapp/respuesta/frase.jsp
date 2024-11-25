@@ -15,6 +15,6 @@
 <body>
 <% request.setCharacterEncoding("UTF-8"); %>
 Me gusta mucho comer
-<% out.print(request.getParameter("cadena");%>
+<% out.println(request.getParameter("cadena")); %>
 </body>
 </html>
