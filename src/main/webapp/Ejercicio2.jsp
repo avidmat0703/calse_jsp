@@ -1,17 +1,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Saludo Multilingüe</title>
     <style>
-
         body {
             background-color: #93dcd8;
             text-align: center;
+            justify-content: center;
+            justify-items: center;
         }
 
         h2 {
-            margin-top: 100px
-        ;
+            margin-top: 100px;
         }
 
         #contenedor {
@@ -19,28 +19,33 @@
             display: flex;
             justify-content: space-around;
         }
+
+        button {
+            margin-top: 100px;
+        }
     </style>
 </head>
 <body>
-    <h2>Vamos a traducir tu texto a diferentes idiomas</h2>
-    <p>Escribe el texto que quieras traducir y elige el idioma</p>
-    <form method="post" action="respuesta2.jsp">
-        <div id="contenedor">
-            <div>
-                <label for="nombre">Introduzca nombre: </label>
-                <input id="nombre" type="text" name="nombre"/>
-            </div>
-
-            <div>
-                <label id="idioma">Selecciona idioma: </label>
-                <select id="idioma" name="idioma">
-                    <option value="">--Sin selección</option>
-                    <option value="">Español</option>
-                    <option value="">Inglés</option>
-                    <option value="">Portugués</option>
-                </select>
-            </div>
+<h2>Vamos a saludarte en diferentes idiomas</h2>
+<p>Escribe tu nombre, elige el idioma y dale a enviar</p>
+<form method="post" action="respuesta/respuesta2.jsp">
+    <section id="contenedor">
+        <div>
+            <label for="nombre">Introduzca nombre: </label>
+            <input id="nombre" type="text" name="nombre" required />
         </div>
-    </form>
+
+        <div>
+            <label for="idioma">Selecciona idioma: </label>
+            <select id="idioma" name="idioma" required>
+                <option value="">-- Sin selección</option>
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+                <option value="pt">Portugués</option>
+            </select>
+        </div>
+    </section>
+    <button type="submit">Enviar</button>
+</form>
 </body>
 </html>
