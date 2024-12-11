@@ -1,0 +1,21 @@
+body {
+    background-color: #93dcd8;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: Candara;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+#contenedor {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 100px;
+}

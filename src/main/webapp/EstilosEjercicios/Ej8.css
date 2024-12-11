@@ -1,0 +1,30 @@
+body {
+    background-color: #93dcd8;
+    color: #333;
+    font-family: Candara;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+form select {
+    padding: 5px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 5px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

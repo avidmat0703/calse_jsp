@@ -1,0 +1,14 @@
+body {
+    background-color: #93a5dc;
+}
+
+main {
+    background-color: #93dcd8;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-family: Candara;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #93dcd8;
+    color: #333;
+    font-family: Candara;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+div p {
+    max-width: 300px;
+}
+
+div img {
+    max-width: 300px;
+}
+
+.tapiceria {
+    max-width: 300px;
+    margin: auto;
+}

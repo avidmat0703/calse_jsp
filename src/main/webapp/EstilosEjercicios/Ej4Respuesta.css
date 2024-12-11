@@ -1,0 +1,15 @@
+body {
+    background-color: #93dcd8;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: Candara;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
